@@ -7,7 +7,7 @@
 <html>
 
 <head>
-	<title>Highlights by HTML5 UP</title>
+	<title>Lucy &amp; Ped are getting married</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -16,14 +16,31 @@
 	<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 	<style>
 		.opacity {
-			  background-color: rgba(10, 10, 10, 0.1); 
-				border-radius: 7px;
-				display:inline-block;
-				padding: 10px;
-   
+			background-color: rgba(10, 10, 10, 0.1);
+			border-radius: 7px;
+			display: inline-block;
+			padding: 10px;
 		}
-		
-	
+
+		.iframe-container {
+			position: relative;
+			width: 100%;
+			padding-bottom: 56.25%;
+			/* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
+		}
+
+		.iframe-container>* {
+			display: block;
+			position: absolute;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			margin: 0;
+			padding: 0;
+			height: 100%;
+			width: 100%;
+		}
 	</style>
 </head>
 
@@ -33,9 +50,9 @@
 	<section id="header">
 		<header class="major">
 			<div class="opacity">
-			<h1>Lucy &amp; Ped are <br/> <i>getting married</i></h1>
-			
-			<p>Saturday 7 April, 2018</p>
+				<h1>Lucy &amp; Ped are <br/> <i>getting married</i></h1>
+				<p>Saturday 7 April, 2018</p>
+				<p>Skibbereen, Cork, Ireland</p>
 			</div>
 		</header>
 
@@ -53,39 +70,42 @@
 				<header class="major">
 					<h2>Wedding</h2>
 				</header>
-				<p>WConsequat sed ultricies rutrum. Sed adipiscing eu amet interdum lorem blandit vis ac commodo aliquet vulputate.</p>
+				<p>CountDown. 366 Days, 9 Hrs 6 Mins</p>
 			</div>
 			<a href="#two" class="goto-next scrolly">Next</a>
 		</div>
 	</section>
 
 	<!-- Two -->
-	<section id="two" class="main special">
+	<section id="two" class="main">
 		<div class="container">
-			<span class="image fit primary"><img src="images/pic02.jpg" alt="" /></span>
+			<span class="image fit primary"><img src="images/liss-ard.jpg" alt="" /></span>
 			<div class="content">
 				<header class="major">
-					<h2>Stuff I do</h2>
+					<h2>Reception</h2>
 				</header>
-				<p>Consequat sed ultricies rutrum. Sed adipiscing eu amet interdum lorem blandit vis ac commodo aliquet vulputate.</p>
-				<ul class="icons-grid">
-					<li>
-						<span class="icon major fa-camera-retro"></span>
-						<h3>Magna Etiam</h3>
-					</li>
-					<li>
-						<span class="icon major fa-pencil"></span>
-						<h3>Lorem Ipsum</h3>
-					</li>
-					<li>
-						<span class="icon major fa-code"></span>
-						<h3>Nulla Tempus</h3>
-					</li>
-					<li>
-						<span class="icon major fa-coffee"></span>
-						<h3>Sed Feugiat</h3>
-					</li>
-				</ul>
+				<p>The reception will be held at Liss-Ard Estate. It is about 15 minute drive from the Skibbereen town centre.</p>
+
+				<div class="row">
+					<div class="6u">
+
+
+						<ul class="alt">
+							<li>
+								<span class="icon fa-calendar fa-lg"></span> &nbsp; Saturday - April 7th, 2017
+							</li>
+							<li>
+								<span class="icon fa-clock-o fa-lg"></span> &nbsp; 2:00pm-late
+							</li>
+							<li>
+								<span class="icon fa-map-o fa-lg"></span> &nbsp; Liss-Ard Estate
+							</li>
+
+						</ul>
+
+
+					</div>
+				</div>
 			</div>
 			<a href="#three" class="goto-next scrolly">Next</a>
 		</div>
@@ -99,9 +119,8 @@
 				<header class="major">
 					<h2>One more thing</h2>
 				</header>
-				<p>Aliquam ante ac id. Adipiscing interdum lorem praesent fusce pellentesque arcu feugiat. Consequat sed ultricies rutrum.
-					Sed adipiscing eu amet interdum lorem blandit vis ac commodo aliquet integer vulputate phasellus lorem ipsum dolor lorem
-					magna consequat sed etiam adipiscing interdum.</p>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2480.6713925115114!2d-9.264324349436741!3d51.555924379543235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4845a5b8ee671cad%3A0x28dab316351c3ffb!2sSkibbereen%2C+Co.+Cork%2C+Ireland!5e0!3m2!1sen!2suk!4v1500044024311"
+				   allowfullscreen></iframe>
 			</div>
 			<a href="#footer" class="goto-next scrolly">Next</a>
 		</div>
@@ -456,7 +475,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 	<section id="footer">
 		<div class="container">
 			<header class="major">
-				<h2>Get in touch</h2>
+				<h2>RSVP</h2>
 			</header>
 			<form method="post" action="#">
 				<div class="row uniform">
@@ -480,7 +499,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 				<li><a href="#" class="icon alt fa-envelope"><span class="label">Email</span></a></li>
 			</ul>
 			<ul class="copyright">
-				<li>&copy; Untitled</li>
+				<li>&copy; Pedro Pinhal</li>
 				<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 				<li>Demo Images: <a href="http://unsplash.com">Unsplash</a></li>
 			</ul>
