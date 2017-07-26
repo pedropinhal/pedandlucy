@@ -615,9 +615,24 @@ ul.social-buttons {
       width:80px;
     }
 
-    #portfolio .detail{
-  text-align: left;
-    background-color: white;
-    padding: 20px 10px 20px 20px;
-}
+    #portfolio .portfolio-item .portfolio-detail {
+    /*max-width: 400px;*/
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white; }
+    #portfolio .portfolio-item .portfolio-detail h4 {
+      margin: 0;
+      text-transform: none; }
+    #portfolio .portfolio-item .portfolio-detail p {
+      font-size: 16px;
+      font-style: normal;
+      margin: 0;
+      font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+      #portfolio li{
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+        line-height: 100%;
+      }
+
   
