@@ -662,6 +662,10 @@ section#contact .text-danger {
   color: #e74c3c;
 }
 
+section#contact label {
+  color: #eeeeee;
+}
+
 footer {
   padding: 25px 0;
   text-align: center;
