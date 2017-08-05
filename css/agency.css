@@ -596,10 +596,26 @@ header.masthead .intro-text .intro-heading {
 }
 
 section#contact {
-  background-color: #222222;
-  background-image: url("../img/map-image.png");
+  background-image: url("../img/message4.jpg");
   background-repeat: no-repeat;
   background-position: center;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /*
+  
+  background-image: url("../img/header-bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  */
 }
 
 section#contact .section-heading {
@@ -898,6 +914,10 @@ fieldset[disabled] .btn-xl.focus {
   line-height: 100%;
 }
 
+#portfolio li a {
+  margin-right: 10px;
+}
+
 #accommodation li {
   display: flex;
   align-items: center;
@@ -908,8 +928,3 @@ fieldset[disabled] .btn-xl.focus {
 #accommodation li a {
   margin-right: 10px;
 }
-
-.ped {
-  border-radius: 10px;
-}
-
