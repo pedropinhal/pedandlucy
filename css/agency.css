@@ -596,7 +596,7 @@ header.masthead .intro-text .intro-heading {
 }
 
 section#contact {
-  background-image: url("../img/message6.jpg");
+  background-image: url("../img/message4.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: scroll;
@@ -618,7 +618,8 @@ section#contact {
   */
 }
 
-section#contact .section-heading, .section-subheading {
+section#contact .section-heading,
+.section-subheading {
   color: white;
 }
 
@@ -927,4 +928,15 @@ fieldset[disabled] .btn-xl.focus {
 
 #accommodation li a {
   margin-right: 10px;
+}
+
+.carousel-inner>.carousel-item>img {
+  max-width: 100%;
+  height: auto;
+}
+
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev {
+  display: block;
 }
