@@ -17,6 +17,10 @@ $(function() {
         e.preventDefault();
         $(this).tab("show");
     });
+
+    $(".howtogetthere").click(function(e) {
+        e.preventDefault();
+    });
 });
 
 
