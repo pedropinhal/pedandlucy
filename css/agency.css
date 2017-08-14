@@ -678,6 +678,7 @@ section#contact :-ms-input-placeholder {
 
 section#contact .text-danger {
   color: #8cd1a8 !important;
+  background-color: #3b414d;
 }
 
 section#contact label {
