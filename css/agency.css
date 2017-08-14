@@ -685,6 +685,10 @@ section#contact label {
   color: #eeeeee;
 }
 
+section#contact button {
+  cursor: pointer; cursor: hand;
+}
+
 footer {
   padding: 25px 0;
   text-align: center;
