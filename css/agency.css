@@ -596,34 +596,6 @@ header.masthead .intro-text .intro-heading {
   margin-top: 0;
 }
 
-section#contact {
-  background-image: url("../img/message4.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: scroll;
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  /*
-  
-  background-image: url("../img/header-bg.jpg");
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  */
-}
-
-section#contact .section-heading,
-.section-subheading {
-  color: white;
-}
-
 section#contact .form-group {
   margin-bottom: 25px;
 }
@@ -679,10 +651,6 @@ section#contact :-ms-input-placeholder {
 section#contact .text-danger {
   color: #8cd1a8 !important;
   background-color: #3b414d;
-}
-
-section#contact label {
-  color: #eeeeee;
 }
 
 section#contact button {
